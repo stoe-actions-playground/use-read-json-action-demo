@@ -12,4 +12,4 @@ jobs:
       - uses: stoe-demo/read-json-action-demo@main
         id: read-json
         with:
-          path: 'package.json'
+          json_file_path: 'package.json'
